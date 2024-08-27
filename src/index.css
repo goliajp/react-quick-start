@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 html {
-  @apply h-dvh antialiased bg-white scroll-smooth;
+  @apply h-dvh scroll-smooth bg-white antialiased;
 }
 body {
-  @apply flex flex-col h-dvh;
+  @apply flex h-dvh flex-col;
 }

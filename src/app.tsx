@@ -1,4 +1,3 @@
-import Home from '@/pages/home'
 import { observer } from 'mobx-react-lite'
 import { Suspense } from 'react'
 import {
@@ -7,6 +6,8 @@ import {
   Route,
   RouterProvider,
 } from 'react-router-dom'
+
+import Home from '@/pages/home'
 
 const App = observer(() => {
   const router = createBrowserRouter(

@@ -1,7 +1,9 @@
-import ReactDOM from 'react-dom/client'
-import { configure } from 'mobx'
-import App from './app.tsx'
 import './index.css'
+
+import { configure } from 'mobx'
+import ReactDOM from 'react-dom/client'
+
+import App from './app.tsx'
 
 // open mobx strict mode
 configure({ enforceActions: 'observed' })
